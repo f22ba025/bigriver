@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <script>
+        function yusyun() {
+            window.open("notlink1.html");
+        }
+        function mitoma() {
+            window.open("notlink1.html");
+        }
+        function doan() {
+            window.open("password.html");
+        }
+    </script>
+    <style>
+        #dummy {
+            text-align: center;
+            color: brown;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        h3 {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: yellow;">
+    <h1 id="dummy">ようこそ！</h1><br>
+    <h2>やぁ　よく来たね</h2>
+    <h2>これはまだログイン画面じゃないよ！</h2>
+    <h2>最初に下にあるボタンをクリックしてね</h2>
+    <h2>ログイン画面に行ったら問題があるから、答えを選んでね</h2>
+    <h2>正しい答えを選ばないとログインできないから気を付けてね</h2><br>
+    <h3>ボタンをクリックしてください</h3>
+    <div>
+        <input id="sei" type="button" value="次へ" onclick="yusyun()"><br>
+        <input id="gonda" type="button" value="次へ" onclick="mitoma()"><br>
+        <input id="nagatomo" type="button" value="次へ" onclick="doan()">
+    </div>
+</body>
+
+</html>
